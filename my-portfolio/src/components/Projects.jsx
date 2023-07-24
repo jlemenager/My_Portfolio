@@ -1,3 +1,8 @@
+import ecotone from '../images/ecotone.png'
+import styleswap from '../images/styleswap.png'
+import clearEar from '../images/clearEar.png'
+import libationStation from '../images/libation-station.png'
+
 export default function Projects(){
     let clicked = false;
     const handleClick1 = () => {
@@ -49,7 +54,7 @@ export default function Projects(){
                 <h1 className='frontpage-header project-header'>My Projects</h1>
                 <div className='projects'>
                     <div className='project'>
-                        <a href="https://ecotone.surge.sh/" target='_blank'><img className='project-photo ecotone-photo' src="src/images/ecotone.png" alt="" /></a>
+                        <a href="https://ecotone.surge.sh/" target='_blank'><img className='project-photo ecotone-photo' src={ecotone} alt="" /></a>
                         <div className='project-popup'>
                             <div className='project-button-and-name'>
                                 <span className='popup-button' onClick={handleClick1}>^</span>
@@ -70,7 +75,7 @@ export default function Projects(){
                     </div>
                     
                     <div className='project'>
-                        <img className='project-photo styleswap-photo' src="src/images/styleswap.png" alt="" />
+                        <img className='project-photo styleswap-photo' src={styleswap} alt="" />
                         <div className='project-popup'>
                             <div className='project-button-and-name'>
                                 <span className='popup-button' onClick={handleClick2}>^</span>
@@ -90,7 +95,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className='project'>
-                        <a href="http://clear-ear.surge.sh/" target='_blank'><img className='project-photo clearear-photo' src="src/images/clearEar.png" alt="" /></a>
+                        <a href="http://clear-ear.surge.sh/" target='_blank'><img className='project-photo clearear-photo' src={clearEar} alt="" /></a>
                         <div className='project-popup'>
                             <div className='project-button-and-name'>
                                 <span className='popup-button' onClick={handleClick3}>^</span>
@@ -111,7 +116,7 @@ export default function Projects(){
                         </div>
                     </div>
                     <div className='project'>
-                        <a href="https://thelibationstation.netlify.app/" target='_blank'><img className='project-photo libationstation-photo' src="src/images/libation-station.png" alt="" /></a>
+                        <a href="https://thelibationstation.netlify.app/" target='_blank'><img className='project-photo libationstation-photo' src={libationStation} alt="" /></a>
                         <div className='project-popup'>
                             <div className='project-button-and-name'>
                                 <span className='popup-button' onClick={handleClick4}>^</span>

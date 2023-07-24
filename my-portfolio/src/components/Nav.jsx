@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import logo from '../images/logo.png'
 export default function Nav(){
     let clicked = false;
     const showLinks = () => {
@@ -14,7 +15,7 @@ export default function Nav(){
         <div>
             <div className='navbar'>
                 <Link to='/' className='logo-section'>
-                    <img className='logo' src="src/images/logo.png" alt="" />
+                    <img className='logo' src={logo} alt="" />
                     <h2 className='logo-name'>Jeremy LeMenager</h2>
                 </Link>
                 <div className='links'>
