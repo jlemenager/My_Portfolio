@@ -1,0 +1,440 @@
+*{
+  /* box-sizing: border-box; */
+}
+
+#root{
+  background-color: #F3F7FD;
+}
+
+body{
+  margin:0;
+}
+
+.header{
+  /* width:100vw; */
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0 2px 8px #DBE8FB;
+}
+
+.logo-section{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.logo{
+  height:90px;
+}
+
+.logo-name{
+  color:#a8a8a8;
+  font-size: 2rem;
+  margin-left: 10px;
+  padding: 0;
+}
+
+.link{
+  color:#a8a8a8;
+  text-decoration: none;
+  margin-right:20px;
+  font-size: 1.2rem;
+}
+
+.link:hover{
+  color: #418EEB;
+}
+
+/* Hamburger Bar */
+
+#hamburgerMenu{
+  cursor: pointer;
+  display: none;
+  margin: 0 20px 10px 0;
+}
+
+.hamburgerBar {
+  background-color: #a8a8a8;
+  height:2px;
+  width:30px;
+  margin: 6px 0;
+}
+
+#hamBar1 {
+  margin-top:20px;
+}
+
+.hamburger-links{
+  display: none;
+  flex-direction: column;
+  padding: 20px 40px 0 20px;
+  position:absolute;
+  right:0px;
+  background-color: white;
+}
+.hamburger-link{
+  display: block;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color:#418EEB;
+}
+
+/* Hero Section */
+
+/* main{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  color:white;
+} */
+
+.hero{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 0 0 20px ;
+}
+
+.hero-image-section{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+  margin-top:90px;
+}
+
+.hero-image{
+  /* margin-top:140px; */
+  width: 40vw;
+  margin: 0;
+}
+
+.box{
+  border:7px solid #418EEB;
+  height:20vh;
+  width:20vw;
+  border-style: solid none none solid;
+}
+.box4{
+  margin:63.2vh -15vw 0 0;
+  z-index: 1;
+}
+
+.box3{
+  margin:820px -7px 0 0;
+}
+
+.box2{
+  margin:1144px -7px 0 0;
+}
+
+.frontpage-header{
+  font-size:3rem;
+  color:#a8a8a8;
+  margin-top: -80px;
+}
+
+.frontpage-subheader{
+  font-size:2.4rem;
+  color:#a8a8a8;
+}
+
+
+/* Project List */
+
+.project-section{
+  margin: 150px 20px 0;
+}
+
+.project-header{
+  margin-bottom:80px;
+  font-size: 2.6rem;
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project{
+  border: 5px solid #418EEB;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #418EEB;
+}
+
+.project-photo{
+  width:47.2vw;
+}
+
+.project-popup{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height:50px;
+  background-color: #418EEB;
+  color:#F3F7FD;
+  font-size: 2rem;
+  padding:0 0 0 15px;
+}
+
+.popup-button{
+  color:#418EEB;
+  background-color: #F3F7FD;
+  border-radius: 1.625rem;
+  padding:0 10px;
+  margin: 0 0 0 0;
+  cursor: pointer;
+}
+
+.project-summary{
+  font-size:1rem;
+  color:#F3F7FD;
+  text-decoration: wavy;
+  margin-left:20px;
+  opacity: .7;
+}
+
+.project-button-and-name{
+  display: flex;
+}
+
+.project-name{
+  margin-left:10px;
+}
+
+.in-progress-note{
+  opacity: 1;
+  font-size: 1rem;
+}
+
+.home-project-onclick1{
+  display: none;
+  background-color: #418EEB;
+  color:#F3F7FD;
+  padding:30px 0 0 20px;
+}
+
+.home-project-onclick2{
+  display: none;
+  background-color: #418EEB;
+  color:#F3F7FD;
+  padding:30px 0 0 20px;
+}
+
+.home-project-onclick3{
+  display: none;
+  background-color: #418EEB;
+  color:#F3F7FD;
+  padding:30px 0 0 20px;
+}
+
+.home-project-onclick4{
+  display: none;
+  background-color: #418EEB;
+  color:#F3F7FD;
+  padding:30px 0 0 20px;
+}
+
+.project-info-line{
+  opacity: 0.7;
+}
+
+/* About */
+
+.about-header{
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.about-header-text{
+  margin-top:100px;
+  font-size:3rem;
+  color:#418EEB;
+}
+
+.about-header-description{
+  font-size:1.2rem;
+  color:#a8a8a8;
+  margin:150px 0 0 0;
+  width: 35vw;
+}
+
+button{
+  padding:20px 30px;
+  background-color:#a8a8a8;
+  border:none;
+  border-radius: 1.625rem;
+  margin: 40px 20px 0 0;
+}
+
+button a{
+  color:#F3F7FD;
+  font-weight: 400;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+button a:hover{
+  color: #418EEB;
+}
+
+/* Languages */
+
+.languages-section{
+  margin: 150px 20px;
+}
+
+.languages-section-header{
+  margin-bottom:60px;
+  font-size: 2.6rem;
+  color:#a8a8a8;
+}
+
+.languages{
+  margin-left:10px;
+  color: #418EEB;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #418EEB;
+  color:#F3F7FD;
+  margin-top:30px;
+  padding:0 20px;
+}
+
+footer button{
+  padding:10px 20px;
+  margin:10px 10px;
+}
+
+footer button a{
+  font-size:1rem;
+}
+
+/* Contact */
+
+.contact{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+.contact-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 1.625rem;
+  box-shadow: 0 2px 8px #DBE8FB;
+  color: #418EEB;
+  width:40vw;
+  height:40vh;
+  text-align: center;
+  margin-top:150px;
+  padding:40px;
+}
+
+.contact-info{
+  /* text-align: left;
+  margin-left: 110px;; */
+}
+
+.contact-link{
+  text-decoration: none;
+  color: #a8a8a8;
+}
+
+.contact-email-text{
+  color: #a8a8a8;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width:1286px) and (min-width:1155px){
+  .libationstation-text{
+    font-size:1.5rem;
+  }
+}
+
+@media screen  and (max-width:1155px){
+  .projects{
+    display: block;
+  }
+
+  .project-photo{
+    width:100%;
+  }
+}
+
+@media screen and (max-width:1000px) and (min-width:610px){
+  .frontpage-header{
+    font-size:2rem;
+    margin-top:50px;
+  }
+}
+
+@media screen  and (max-width:850px){
+  .about-header{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .about-header-description{
+    width:90%;
+    margin: 80px 20px 0;
+  }
+
+  .about-photo{
+    margin-top:50px;
+    width:100vw;
+  }
+}
+
+@media screen and (max-width:670px){
+  .libationstation-text{
+    font-size:1.3rem;
+  }
+}
+
+@media screen and (max-width:750px){
+.links{
+  display: none;
+}
+#hamburgerMenu{
+  display: block;
+}
+footer button{
+  padding:10px 5px;
+}
+}
+
+@media screen  and (max-width:610px){
+  .frontpage-header{
+    font-size:1.3rem;
+    margin-top:50px;
+  }
+  footer{
+    flex-direction: column;
+  }
+}
