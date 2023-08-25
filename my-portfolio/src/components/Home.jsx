@@ -69,8 +69,8 @@ export default function Home(){
                 </div>
                 {/* <img src="src/images/hshot6.jpg" alt="personal-photo" /> */}
             </div>
-            <div>
-            <div className='frontPage-animation'>
+            <div className='animation-box'>
+                <div className='frontPage-animation'>
                     <div className='moving-ball moving-ball1'></div>
                     <div className='moving-ball moving-ball2'></div>
                 </div>
