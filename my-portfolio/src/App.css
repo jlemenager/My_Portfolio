@@ -121,6 +121,75 @@ body{
   margin: 0;
 }
 
+.moving-ball{
+  height:20px;
+  width: 20px;
+  background-color: #a8a8a8;
+  border-radius: 100%;
+}
+
+.moving-ball1{
+  position:relative;
+  top:55px;
+  animation: slideFirstBall 4s linear 0s infinite;
+  z-index:1;
+}
+.moving-ball2{
+  animation: slideSecondBall 4s linear 4s infinite;
+  position:relative;
+  top:35px;
+  z-index:1;
+  margin-left:50%;
+  background-color: #418EEB;
+}
+
+.introPage-leaf{
+  margin:0 auto;
+  height:70px;
+  width: 70px;
+  animation: flipImage 4s 4s infinite;
+}
+
+.introPage-leaf-div{
+  position:absolute;
+  left:45%;
+  bottom:-22.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:150px;
+  width:150px;
+  border: 3px solid #a8a8a8;
+  border-radius: 100%;
+  background-color: white;
+  z-index:2;
+}
+
+.line{
+  position:absolute;
+  top:112.5%;
+  border-top:3px solid #a8a8a8;
+  width: 100vw;
+}
+
+@keyframes flipImage{
+  0% {}
+  20% {transform:scaleX(-1)}
+  60% {transform:scaleX(1)}
+  100% {}
+}
+
+@keyframes slideFirstBall {
+  0% {margin-left:0px}
+  100% {margin-left:50%}
+}
+
+@keyframes slideSecondBall {
+  0% {margin-left:50%}
+  100% {margin-left:100%}
+}
+
 .box{
   border:7px solid #418EEB;
   height:20vh;
@@ -155,7 +224,7 @@ body{
 /* Project List */
 
 .project-section{
-  margin: 150px 20px 0;
+  margin: 250px 20px 0;
 }
 
 .project-header{

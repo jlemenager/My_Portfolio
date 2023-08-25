@@ -4,6 +4,7 @@ import ecotone from '../images/ecotone.png'
 import styleswap from '../images/styleswap.png'
 import clearEar from '../images/clearEar.png'
 import libationStation from '../images/libation-station.png'
+import logo from '../images/logo.png'
 
 export default function Home(){
 
@@ -67,6 +68,19 @@ export default function Home(){
                     <img className='hero-image' src={computerImage} alt="animated computer" />
                 </div>
                 {/* <img src="src/images/hshot6.jpg" alt="personal-photo" /> */}
+            </div>
+            <div>
+            <div className='frontPage-animation'>
+                    <div className='moving-ball moving-ball1'></div>
+                    <div className='moving-ball moving-ball2'></div>
+                </div>
+                <div className='introPage-leaf-div'>
+                    <img className='introPage-leaf' src={logo} alt="logo" />
+                </div>
+                <div className='line line1'></div>
+                <div className='line line2'></div>
+                <div className='line line3'></div>
+                <div className='line line4'></div>
             </div>
             <div className='project-section' id='portfolio'>
                 <h1 className='frontpage-header project-header'>Feel free to check out my projects:</h1>
