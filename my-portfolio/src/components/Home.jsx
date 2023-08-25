@@ -72,7 +72,7 @@ export default function Home(){
                 <h1 className='frontpage-header project-header'>Feel free to check out my projects:</h1>
                 <div className='projects'>
                     <div className='project'>
-                        <a href="https://ecotone.surge.sh/" target='_blank'><img className='project-photo ecotone-photo' src={ecotone} alt="" /></a>
+                        <a href="https://ecotone-store.netlify.app/" target='_blank'><img className='project-photo ecotone-photo' src={ecotone} alt="" /></a>
                         <div className='project-popup'>
                             <div className='project-button-and-name'>
                                 <span className='popup-button' onClick={handleClick1}>^</span>
@@ -93,7 +93,7 @@ export default function Home(){
                     </div>
                     
                     <div className='project'>
-                        <img className='project-photo styleswap-photo' src={styleswap} alt="" />
+                    <a href="https://styleswap.netlify.app/" target='_blank'><img className='project-photo styleswap-photo' src={styleswap} alt="" /></a>
                         <div className='project-popup'>
                             <div className='project-button-and-name'>
                                 <span className='popup-button' onClick={handleClick2}>^</span>

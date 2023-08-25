@@ -8,6 +8,7 @@
 
 body{
   margin:0;
+  font-family:'arial';
 }
 
 .header{
@@ -23,6 +24,7 @@ body{
   align-items: center;
   background-color: white;
   box-shadow: 0 2px 8px #DBE8FB;
+  font-family:'Helvetica';
 }
 
 .logo-section{
@@ -37,9 +39,11 @@ body{
 
 .logo-name{
   color:#a8a8a8;
-  font-size: 2rem;
+  font-size: 1.7rem;
   margin-left: 10px;
   padding: 0;
+  /* font-family:'Montserrat', arial; */
+  font-weight:400;
 }
 
 .link{
